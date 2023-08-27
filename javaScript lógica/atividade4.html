@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+      var base = prompt("Digite o valor da base");
+      var altura = prompt("Digite o valor da altura");
+
+      resultado = base * altura;
+      document.write("A aréa do retângulo é: " + resultado);
+
+      var lado = prompt("Digite o valor do lado");
+
+      resultado = lado * lado;
+      document.write("O lado do quadrado é: " + resultado);
+
+      var diagonalMaior = prompt("Digite o valor da diagonal maior do Losango");
+      var diagonalMenor = prompt("Digite o valor da diagonal menor do Losango");
+
+      resultado = diagonalMaior * diagonalMenor;
+      document.write("A aréa do Losango é: " + resultado);
+
+      var baseMaior = prompt("Digite o valor da base maior do trapézio");
+      var baseMenor = prompt("Digite o valor da base menor do trapézio");
+      var altura = prompt("informe a altura do trapézio");
+
+      resultado = (baseMaior * baseMenor * altura) / 2;
+      document.write("A aréa do trapézio é: " + resultado);
+
+      var base = prompt("Digite o valor da base do Paralelograma");
+      var altura = prompt("Digite o valor da altura do Paralelograma");
+
+      resultado = base * altura;
+      document.write("A aréa do paralelograma é " + resultado);
+
+      var base = prompt("Digite o valor da base do triângulo");
+      var altura = prompt("Digite o valor da altura do triângulo");
+
+      resultado = (base * altura) / 2;
+      document.write("A aréa do triângulo é: " + resultado);
+    </script>
+  </head>
+  <body></body>
+</html>
